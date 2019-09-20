@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>Club Landoy</title>
+    <meta name="description" content="Le Club Landoy est un think-tank dédié à la révolution démographique. Il produit des réflexions et des travaux à la fois prospectifs et prédictifs.">
+
+    <!-- Webfont Gilroy -->
+    <style type="text/css">
+        @font-face {
+            font-family: "Gilroy W00 Regular";
+            src: url("fonts/gilroy/db03f9a3-d054-4656-ac72-4e3a9ea4b5f2.eot?#iefix");
+            src: url("fonts/gilroy/db03f9a3-d054-4656-ac72-4e3a9ea4b5f2.eot?#iefix") format("eot"), url("fonts/gilroy/ae8b809e-b8bb-4e75-883c-04fb85429645.woff2") format("woff2"), url("fonts/gilroy/e3a5a442-9a7c-4ebd-8bdf-f9c38bc20dc6.woff") format("woff"), url("fonts/gilroy/d3565d67-9a4c-4bcc-8b1a-6343f49ad3da.ttf") format("truetype"), url("fonts/gilroy/da829e55-d815-4d43-bf15-400e6e1e2d82.svg#da829e55-d815-4d43-bf15-400e6e1e2d82") format("svg");
+        }
+        
+        @font-face {
+            font-family: "Gilroy W00 Regular Italic";
+            src: url("fonts/gilroy/8fe8c5da-4c7b-4576-bb9e-04b101117ce9.eot?#iefix");
+            src: url("fonts/gilroy/8fe8c5da-4c7b-4576-bb9e-04b101117ce9.eot?#iefix") format("eot"), url("fonts/gilroy/556fd0d1-4ab7-4b58-9024-6f4ece4652d8.woff2") format("woff2"), url("fonts/gilroy/03143cb7-dcdd-4548-9842-eb8e9a43aa72.woff") format("woff"), url("fonts/gilroy/026e440e-21f7-4a91-a6ae-6540425c100d.ttf") format("truetype"), url("fonts/gilroy/e0c025ab-05ca-4e73-9925-a5495929ad82.svg#e0c025ab-05ca-4e73-9925-a5495929ad82") format("svg");
+        }
+        
+        @font-face {
+            font-family: "Gilroy W00 Medium";
+            src: url("fonts/gilroy/e614cc7a-7369-438b-ae6b-e81a483780da.eot?#iefix");
+            src: url("fonts/gilroy/e614cc7a-7369-438b-ae6b-e81a483780da.eot?#iefix") format("eot"), url("fonts/gilroy/ab57e807-506b-4e1d-aed1-cb2b62dd7258.woff2") format("woff2"), url("fonts/gilroy/4ac1d6d8-0dca-4d0c-9b27-89cbaaf6a542.woff") format("woff"), url("fonts/gilroy/c353d337-cd72-47c5-8939-c28d728dbc84.ttf") format("truetype"), url("fonts/gilroy/91cfd09a-4f27-4a3f-b418-395d55464a0c.svg#91cfd09a-4f27-4a3f-b418-395d55464a0c") format("svg");
+        }
+        
+        @font-face {
+            font-family: "Gilroy W00 Medium Italic";
+            src: url("fonts/gilroy/4b0c0a03-e34b-4e99-a140-01d7a8938019.eot?#iefix");
+            src: url("fonts/gilroy/4b0c0a03-e34b-4e99-a140-01d7a8938019.eot?#iefix") format("eot"), url("fonts/gilroy/0bf2ba31-08e4-42b1-ac2d-43cf13fa64de.woff2") format("woff2"), url("fonts/gilroy/aa8f1223-a894-4ecf-8ffc-323dd872038c.woff") format("woff"), url("fonts/gilroy/f8f06e15-288f-4fec-8eb1-b3d69e345759.ttf") format("truetype"), url("fonts/gilroy/c24774f0-06cd-499f-bcd7-d83a98d45f9e.svg#c24774f0-06cd-499f-bcd7-d83a98d45f9e") format("svg");
+        }
+        
+        @font-face {
+            font-family: "Gilroy W00 SemiBold";
+            src: url("fonts/gilroy/d2c69706-9309-415c-ba46-9369da3a3d0a.eot?#iefix");
+            src: url("fonts/gilroy/d2c69706-9309-415c-ba46-9369da3a3d0a.eot?#iefix") format("eot"), url("fonts/gilroy/dace493d-2c1a-478b-a98e-0e73f323a856.woff2") format("woff2"), url("fonts/gilroy/a7e2bbd1-4a46-45fa-9e36-1a26e482c098.woff") format("woff"), url("fonts/gilroy/49a87d40-722b-4a8d-aa96-5159f4051bfe.ttf") format("truetype"), url("fonts/gilroy/d248e829-5afe-46cd-955f-26411a18ceab.svg#d248e829-5afe-46cd-955f-26411a18ceab") format("svg");
+        }
+        
+        @font-face {
+            font-family: "Gilroy W00 SemiBold Italic";
+            src: url("fonts/gilroy/250e57c0-3d45-4413-b780-d061671f7716.eot?#iefix");
+            src: url("fonts/gilroy/250e57c0-3d45-4413-b780-d061671f7716.eot?#iefix") format("eot"), url("fonts/gilroy/4ed9b65e-e077-42aa-b793-7ab1243dc175.woff2") format("woff2"), url("fonts/gilroy/2e17378c-ba45-4426-95a0-deb485e7079b.woff") format("woff"), url("fonts/gilroy/8f750ace-aa61-44ce-8956-7da56804d1bf.ttf") format("truetype"), url("fonts/gilroy/cc382eba-da9d-464d-bf0d-36c3344944a9.svg#cc382eba-da9d-464d-bf0d-36c3344944a9") format("svg");
+        }
+        
+        @font-face {
+            font-family: "Gilroy W00 Bold";
+            src: url("fonts/gilroy/5420c205-8697-4669-8deb-3df9b89a643b.eot?#iefix");
+            src: url("fonts/gilroy/5420c205-8697-4669-8deb-3df9b89a643b.eot?#iefix") format("eot"), url("fonts/gilroy/9b941ec6-0652-468c-80c6-e7a624c32a75.woff2") format("woff2"), url("fonts/gilroy/f475817d-5210-4456-ae08-6d82c026a2f3.woff") format("woff"), url("fonts/gilroy/4a28a5dc-a361-4a3c-8414-2ab42ae72872.ttf") format("truetype"), url("fonts/gilroy/5151bed8-f99a-46b0-b6a5-1ba070a0fe54.svg#5151bed8-f99a-46b0-b6a5-1ba070a0fe54") format("svg");
+        }
+        
+        @font-face {
+            font-family: "Gilroy W00 Bold Italic";
+            src: url("fonts/gilroy/c47adb39-e72f-40e7-b86a-8946e173dca5.eot?#iefix");
+            src: url("fonts/gilroy/c47adb39-e72f-40e7-b86a-8946e173dca5.eot?#iefix") format("eot"), url("fonts/gilroy/4af4830c-4830-479d-b2da-ff899036c959.woff2") format("woff2"), url("fonts/gilroy/1ba9c2f5-76f5-4a56-b808-60fb1398a88e.woff") format("woff"), url("fonts/gilroy/56d25f53-52c4-448a-9dbb-af8065284ea2.ttf") format("truetype"), url("fonts/gilroy/29613652-89ba-4d1d-a140-dd2610df03ce.svg#29613652-89ba-4d1d-a140-dd2610df03ce") format("svg");
+        }
+    </style>
+
+    <!-- Bootstrap core CSS + Custom CSS compiled -->
+    <link href="css/app.css?v=0.4" rel="stylesheet">
+
+    <!-- Fontawesome Kit -->
+    <script src="https://kit.fontawesome.com/dc1cc5e56f.js"></script>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/Favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.pe-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicos/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#231F20">
+
+    <!-- Facebook Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Club Landoy">
+    <meta property="og:description" content="Le Club Landoy est un think-tank dédié à la révolution démographique. Il produit des réflexions et des travaux à la fois prospectifs et prédictifs.">
+    <meta property="og:url" content="https://www.clublandoy.com">
+    <meta property="og:image" content="https://www.clublandoy.com/img/facebook/clublandoy-facebook-share.jpg">
+
+</head>
+
+<body>
+    <div class="container-fluid p-0">
+
+
+        <!-- HEADER -->
+        <div class="container cl-header p-3">
+            <img src="img/wp-theme/logo-club-landoy.svg" class="logo-club-landoy" alt="Club Landoy">
+            <div class="cl-bloc-social text-right mt-5">
+                <span class="small mb-1 pr-2">Suivre le Club Landoy</span>
+                <a href="https://twitter.com/ClubLandoy" class="cl-social-icon" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <!-- /HEADER -->
+
+
+
+
+        <!-- BIG CARTOUCHE -->
+        <div class="container-fluid cl-marie-louise cl-vertical-strokes cl-relative cl-bkg-orange text-center px-lg-7 px-md-5 py-7 cl-txt-white">
+            <h3 class="mb-0">Think Tank le&nbsp;13&nbsp;novembre&nbsp;2019</h3>
+            <h5 class="">Maison de l'artisanat - Paris</h5>
+            <h1 class="display-3 text-center my-3">Parce que la&nbsp;transition démographique est&nbsp;une&nbsp;chance</h1>
+            <a href="#inscription" title="S'inscrire" class="btn btn-lg btn-primary my-3 cl-btn-white cl-btn-anim">S'INSCRIRE&nbsp;&nbsp;&nbsp;<i class="fas fa-chevron-down"></i></a>
+            
+        </div>
+        <!-- /BIG CARTOUCHE -->
+
+
+
+
+        <!-- INTERVENANTS -->
+        <div class="container py-7">
+            <h4 class="text-center mb-5">En présence notamment de</h4>
+            <ul class="cl-portraits-intervenants">
+
+                <li>
+                    <img src="img/wp-content/portrait-boissard.png" class="" alt="Boissard">
+                    <h6>Sophie Boissard</h6>
+                    <p>Présidente<br>Korian</p>
+                </li>
+
+                <li>
+                    <img src="img/wp-content/portrait-dulac.png" class="" alt="Dulac">
+                    <h6>Fabienne Dulac</h6>
+                    <p>Présidente<br>Orange France</p>
+                </li>
+
+                <li>
+                    <img src="img/wp-content/portrait-lombard.png" class="" alt="Lombard">
+                    <h6>Eric Lombard</h6>
+                    <p>Directeur général<br>CDC</p>
+                </li>
+
+                <li>
+                    <img src="img/wp-content/portrait-verzelen.png" class="" alt="Verzelen">
+                    <h6>Florence Verzelen</h6>
+                    <p>DGA<br>Dassault</p>
+                </li>
+
+                <li>
+                    <img src="img/wp-content/portrait-wahl.png" class="" alt="Wahl">
+                    <h6>Philippe Wahl</h6>
+                    <p>PDG<br>La Poste</p>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <!-- /INTERVENANTS -->
+
+
+
+
+    <!-- PROGRAMME -->
+    <div class="container-fluid cl-marie-louise cl-bkg-greylight cl-programme py-7 cl-relative cl-vertical-strokes">
+        
+        <!-- Cartouche date -->
+        <div class="cl-cartouche-date cl-bkg-orange cl-txt-white px-4 py-3">
+            <h5><i class="far fa-clock"></i> 8h30 - 13 nov 2019</h5>
+            <img src="img/wp-theme/arrow-dialog.svg" class="cl-arrow-dialog" alt="arrow">
+        </div>
+        <!-- /Cartouche date -->
+
+
+        <div class="container">
+            <h2 class="cl-txt-orange text-right mb-5">La journée débat</h2>
+
+            <div class="row">
+
+                <div class="col-lg-8 mx-auto">
+                    <h4>Une matinée d'inspiration</h4>
+                    <p>Texte en attente...</p>
+                    <h4>Programme</h4>
+                    <dl class="row mb-5">
+                        <dt class="col-sm-2">8h30</dt>
+                        <dd class="col-sm-10">Accueil</dd>
+                        <dt class="col-sm-2">8h45</dt>
+                        <dd class="col-sm-10">Introduction<br>Keynotes<br>Table ronde n°1 : Habitat et mobilité<br>Table ronde n°2 : Prévention et santé<br>Table ronde n°3 : Société de services<br>Conclusion</dd>
+                    </dl>
+                    <hr>
+
+                    <!-- Inscription -->
+                    <a id="inscription"></a>
+                    <h2 class="cl-txt-orange text-center mt-5 mb-3">S'inscrire</h2>
+                    <h5 class="text-center">à la journée du 13&nbsp;novembre - 8h30&nbsp;à&nbsp;13h00<br>
+                  Maison de l'artisanat - 12&nbsp;avenue Marceau 75008&nbsp;Paris</h5>
+                    <p class="text-center mt-4">Votre inscription sera confirmée par email sous réserve des places disponibles.</p>
+
+                    <div class="cl-put-your-form-in-here-jeremy mt-5" style="">
+                        
+                        <!-- JS CALL -->
+                            <div id="qualifio_insert_place_673049" class="qualifio_iframe_wrapper"></div>
+                            <script type="text/javascript">
+                          (function(b,o,n,u,s){var a,t;a=b.createElement(u);a.async=1;a.src=s;t=b.getElementsByTagName(u)[0];t.parentNode.insertBefore(a,t);o[n]=o[n]||[]}) (document,window,'_qual_async','script','//quiz.notretemps.com/kit/qualp.2.min.js');
+                          _qual_async.push(['createIframe', 'qualifio_insert_place_673049', 'quiz.notretemps.com', '20', '775F1087-D4BB-DC8D-AA5F-20D473884CE1', '100%', '1200', '', '', '', 'max-width:810px;margin:0 auto;']);
+                            </script>
+                        <!-- /JS CALL -->
+
+                    </div>
+                    <!-- /Inscription -->
+
+                </div>
+
+            </div>
+            <!-- /row -->
+
+        </div>
+        <!-- /container -->
+
+    </div>
+    <!-- /PROGRAMME -->
+
+
+
+
+    <!-- CLUB LANDOY -->
+    <div class="container py-7">
+
+        <h2>Le Club Landoy<br><small>Raison d'être</small></h2>
+
+        <div class="row mt-5">
+            <div class="col-lg-8 mx-auto text-justify">
+                <p class=""><strong>Le Club Landoy est un think-tank dédié à la révolution démographique et produira des réflexions et des travaux à la fois prospectifs et prédictifs.</strong></p>
+                <p>Ce collectif d’entreprises et de structures engagées et visionnaires ambitionne de faire émerger de nouvelles approches et des solutions innovantes afin de mener des actions concrètes pour le progrès social. Les membres du Club Landoy veulent faire de ce phénomène mondial et rapide, une chance civilisationnelle.</p>
+                <p>A l’origine de ce Club, unique en son genre, le groupe Bayard. Un groupe qui connaît bien les 50 ans et +, son cœur de public, notamment grâce à Notre Temps.</p>
+                <p>Pourquoi Landoy ? Les premiers démographes qui ont travaillé, en France, sur l'évolution des populations des pays européens et nord-américains sont notamment Adolphe Landry et sa collègue Louise Duroy. Landoy est donc la contraction de Landry et Duroy.</p>
+                <h3 class="mt-4">Les axes de réflexion</h3>
+                <h5>La santé</h5>
+                <p>La santé puisque les plus de 45 ans - qui représenteront 50 % de la population mondiale en 2035 - sont bien décidés à vivre longtemps et en forme grâce à tous les outils médicaux et techniques possibles.</p>
+                <h5>La digitalisation</h5>
+                <p>La digitalisation domestique qui change la donne de l’habitat et de la vie locale tout particulièrement pour les seniors actuels (21 millions) et pour ceux qui viendront ensuite grossir ce chiffre.</p>
+                <h5>La mobilité</h5>
+                <p>La mobilité, qui reliera de plus en plus en France les différents territoires entre eux et devra y faire circuler chacun, quel que soit son âge.</p>
+                <hr class="my-5">
+                <h4 class="text-center mb-5">En partenariat avec :</h4>
+                <picture>
+                    <source srcset="img/wp-content/logos-partenaires-lg.png" class="img-fluid" alt="Logo partenaires" media="(min-width: 800px)">
+                    <img src="img/wp-content/logos-partenaires-sm.png" class="img-fluid" alt="Logo partenaires"/>
+                </picture>
+
+            </div>
+            <!-- /col -->
+
+        </div>
+        <!-- /row -->
+
+    </div>
+    <!-- /container -->
+
+    <!-- /CLUB LANDOY -->
+
+
+
+
+    <!-- FOOTER -->
+
+    <div class="container-fluid cl-marie-louise cl-bloc-footer cl-bkg-greylight cl-vertical-strokes cl-relative text-center py-7">
+        <div class="row">
+            <div class="col-md-4 pt-3 pb-2">
+                <h5>Contact</h5>
+                <p><a href="mailto:club-landoy@bayardgroupe.com">Nous écrire</a></p>
+            </div>
+            <div class="col-md-4 cl-footer-bloc-central pt-3 pb-2">
+                <h5 class="mb-3">Suivre le Club Landoy</h5>
+                <p><a href="https://twitter.com/ClubLandoy" class="cl-social-icon" target="_blank"><i class="fab fa-twitter"></i></a></p>
+            </div>
+            <div class="col-md-4 pt-3 pb-2">
+                <h5 class="mb-3">Mentions légales</h5>
+                <ul class="cl-no-bullet cl-line-height-small cl-li-mb text-center p-0">
+                    <li><a href="#" data-toggle="modal" data-target="#mentionslegales">Mentions légales</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#confidentialite">Politique de confidentialité</a></li>
+                </ul>                
+            </div>
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /cl-bloc-footer -->
+    </div>
+    <!-- /.container-fluid -->
+
+    <!-- /FOOTER -->
+
+
+
+
+    <!-- SUB FOOTER -->
+
+    <div class="cl-sub-footer text-center py-4">
+        <p class="small cl-txt-blue mb-2">Une initiative du&nbsp;groupe&nbsp;Bayard</p>
+        <a href="https://wwww.groupebayard.com" target="_blank" title="Groupe Bayard"><img src="img/wp-theme/logo-groupe-bayard.svg" class="logo-groupe-bayard" alt="Groupe Bayard"></a>
+    </div>
+    <!-- /SUB FOOTER -->
+
+
+
+
+    <!-- MODAL MENTIONS LEGALES -->
+
+    <div class="modal fade" tabindex="-1" role="dialog"  id="mentionslegales">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Mentions légales</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Ici texte des mentions légales</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- /MODAL MENTIONS LEGALES -->
+
+
+    <!-- MODAL POLITIQUE CONFID -->
+
+    <div class="modal fade" tabindex="-1" role="dialog"  id="confidentialite">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Politique de confidentialité</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Ici texte des politique des confidentialité</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- /MODAL POLITIQUE CONFID -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/vendor/jquery.3.4.1.min.js"></script>
+    <!--<script src="js/vendor/popper.1.12.9.js" type="text/javascript"></script>-->
+    <script src="js/vendor/bootstrap.bundle.min.js"></script>
+    <!--Functions -->
+    <script src="js/functions.js"></script>
+
+</body>
+
+</html>
